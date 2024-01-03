@@ -14,7 +14,7 @@ def eye_aspect_ratio(eye):
 
 def show_initial_message(frame, blink_goal):
     cv2.putText(frame, f"Prepare-se para piscar {blink_goal} vezes", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7,
-                (0, 255, 0), 2)
+                (34, 34, 34), 2)
 
 
 def show_countdown(frame, count):
